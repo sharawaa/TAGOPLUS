@@ -1,0 +1,43 @@
+.promo-container {
+  width: 100%;
+  background-color: gainsboro;
+  height: 528px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.promo {
+  display: flex;
+  width: 1170px;
+  align-items: center;
+  height: 420px;
+  justify-content: space-between;
+}
+.promo-text {
+  width: 270px;
+}
+.promo-text-h1 {
+  font-size: 32px;
+}
+
+.promo-video {
+  width: 704px;
+  height: 400px;
+  background-color: aqua;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .promo {
+    flex-direction: column;
+  }
+  .promo-video {
+    width: 376px;
+    height: 300px;
+    background-color: aqua;
+    border-radius: 10px;
+  }
+}
