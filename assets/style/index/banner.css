@@ -68,6 +68,7 @@
 .number {
   font-size: 14px;
 }
+
 @media screen and (max-width: 768px) {
   .banner-container {
     width: 100%;
@@ -87,5 +88,19 @@
   }
   .rewards {
     margin-top: 150px;
+  }
+  .reward {
+    width: 309px;
+    font-size: 10px;
+  }
+  .medal1 {
+    width: 30%;
+  }
+  .medal2 {
+    font-size: 10px;
+    width: 60%;
+  }
+  .won {
+    gap: 10px;
   }
 }

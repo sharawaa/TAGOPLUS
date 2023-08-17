@@ -26,8 +26,6 @@
 .promo-video {
   width: 704px;
   height: 400px;
-  background-color: aqua;
-  border-radius: 10px;
 }
 
 @media screen and (max-width: 768px) {
@@ -35,9 +33,12 @@
     flex-direction: column;
   }
   .promo-video {
-    width: 376px;
-    height: 300px;
+    width: 330px;
+    height: 200px;
     background-color: aqua;
     border-radius: 10px;
+  }
+  .promo-container {
+    width: 100%;
   }
 }

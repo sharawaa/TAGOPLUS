@@ -1,6 +1,6 @@
-const dataset = [75];
-const colors = ["#3498db", "#e74c3c"];
-const labels = ["Label 1"];
+const dataset = [75, 25];
+const colors = ["#3498db", "#EBE8E8"];
+const labels = [""];
 
 const width = 200;
 const height = 200;

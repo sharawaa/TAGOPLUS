@@ -19,7 +19,7 @@
 
 .ing {
   font-size: 160px;
-  color: rgb(230, 230, 230);
+  color: rgb(235, 232, 232);
   margin-left: 150px;
 }
 .chart-title {
@@ -30,12 +30,35 @@
   margin-top: 220px;
   font-weight: bold;
 }
+.carth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.carth-container-button {
+  width: 79px;
+  height: 29px;
+  border: none;
+  background-color: rgb(232, 231, 231);
+}
+.carth-container-p {
+  font-size: 18px;
+}
 
 @media screen and (max-width: 768px) {
+  .chart-start {
+    width: 90%;
+    position: relative;
+    margin: auto;
+  }
   .chart {
     width: 90%;
     flex-direction: column;
   }
-  .chart-container {
+  .ing {
+    margin-left: 90px;
+  }
+  .carth-container {
+    margin: 30px;
   }
 }

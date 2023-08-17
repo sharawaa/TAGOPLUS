@@ -1,0 +1,152 @@
+/* 1170px */
+.main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+
+  min-height: 100;
+}
+ul li {
+  list-style: none;
+}
+ul h1 {
+  border-bottom: 2px gray solid;
+  padding-bottom: 20px;
+}
+.table {
+  width: 950px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.table-date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  background-color: rgb(228, 108, 87);
+  border-radius: 10px;
+  gap: 20px;
+}
+.date-button {
+  height: 38px;
+  width: 96px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.date-input {
+  height: 38px;
+  width: 150px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+}
+.filter {
+  height: 75px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+}
+.filter-button {
+  width: 120px;
+  height: 35px;
+  background-color: white;
+  border: 1px gray solid;
+  border-radius: 5px;
+}
+.search-input {
+  width: 240px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.search-button {
+  width: 30px;
+  height: 30px;
+  background-color: gainsboro;
+  border: 1px gray solid;
+  border-radius: 5px;
+}
+
+.main-table {
+  border-collapse: collapse;
+  width: 100%;
+  width: 950px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.main-table th,
+.main-table td {
+  height: 68px;
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.main-table th {
+  background-color: #f2f2f2;
+}
+button {
+  border: none;
+  border-radius: 5px;
+}
+.main-table tbody tr:hover {
+  background-color: #ddd;
+}
+.th-button1 {
+  width: 51px;
+  height: 26px;
+  background-color: rgb(243, 57, 57);
+}
+.th-button2 {
+  width: 51px;
+  height: 26px;
+  background-color: skyblue;
+}
+.th-button3 {
+  width: 51px;
+  height: 26px;
+  background-color: rgb(245, 245, 82);
+}
+.th-button4 {
+  width: 51px;
+  height: 26px;
+  background-color: rgb(151, 214, 95);
+}
+.th-button {
+  width: 51px;
+  height: 26px;
+  background-color: rgb(149, 140, 140);
+}
+.td-date {
+  flex-direction: column;
+}
+.td-date-p {
+  font-size: 14px;
+  color: rgb(168, 164, 164);
+}
+.pagination {
+  height: 12px;
+  width: 184px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.pagination-active {
+  width: 12px;
+  height: 22px;
+  border-bottom: 2px black solid;
+}
