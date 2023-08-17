@@ -6,7 +6,10 @@
 }
 
 .chart {
+  display: flex;
   width: 1170px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .chart-start {
@@ -24,6 +27,15 @@
   align-items: center;
   font-size: 32px;
   position: absolute;
-  margin-top: 85px;
+  margin-top: 220px;
   font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .chart {
+    width: 90%;
+    flex-direction: column;
+  }
+  .chart-container {
+  }
 }
