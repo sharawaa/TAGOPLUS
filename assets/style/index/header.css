@@ -87,7 +87,7 @@
 }
 
 /* Media Queries */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 483px) {
   .nav {
     display: flex;
     align-items: center;

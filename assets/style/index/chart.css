@@ -45,7 +45,7 @@
   font-size: 18px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 483px) {
   .chart-start {
     width: 90%;
     position: relative;

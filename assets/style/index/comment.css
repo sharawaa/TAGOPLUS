@@ -58,7 +58,7 @@
   border-bottom: 1px gray solid;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 483px) {
   .reviewOutside {
     border: 1px orangered solid;
     border-radius: 10px;
@@ -171,13 +171,13 @@
   align-items: flex-end;
 }
 /* 378px */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 483px) {
   .reviewOutside {
     border: 1px orangered solid;
     border-radius: 10px;
     height: 100px;
     padding: 10px;
-    width: 90%;
+    width: 360px;
   }
   .review {
     display: flex;

@@ -12,7 +12,7 @@
 .footer-text {
   display: flex;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 483px) {
   .footer-text {
     flex-direction: column;
   }
