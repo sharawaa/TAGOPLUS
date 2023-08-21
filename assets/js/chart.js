@@ -2,8 +2,8 @@ const dataset = [75, 25];
 const colors = ["#3498db", "#EBE8E8"];
 const labels = [""];
 
-const width = 200;
-const height = 200;
+const width = 183;
+const height = 183;
 
 const svg = d3
   .select("#doughnutChart")
@@ -17,7 +17,7 @@ const pie = d3.pie().value((d) => d);
 
 const arc = d3
   .arc()
-  .innerRadius(radius * 0.7)
+  .innerRadius(radius * 0.8)
   .outerRadius(radius);
 
 const arcs = pie(dataset);

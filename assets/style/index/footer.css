@@ -12,8 +12,20 @@
 .footer-text {
   display: flex;
 }
+.footer-copy-text {
+  color: rgb(185, 177, 177);
+  margin-bottom: 50px;
+  font-size: 14px;
+}
 @media screen and (max-width: 483px) {
   .footer-text {
     flex-direction: column;
+    width: 90%;
+  }
+  .footer-p {
+    width: 90%;
+  }
+  .footer-text {
+    font-size: 15px;
   }
 }
