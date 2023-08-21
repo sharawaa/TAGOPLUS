@@ -18,15 +18,16 @@
   font-size: 14px;
 }
 @media screen and (max-width: 483px) {
-  .footer{
+  .footer {
     margin-top: 150px;
   }
   .footer-text {
     flex-direction: column;
-    width: 90%;  }
-    .footer-text p{
-      margin-top: -10px;
-    }
+    width: 90%;
+  }
+  .footer-text p {
+    margin-top: -5px;
+  }
   .footer-p {
     width: 90%;
   }

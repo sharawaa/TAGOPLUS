@@ -47,15 +47,19 @@
   flex-direction: column;
   align-items: center;
 }
+.date-wrap {
+  width: 100%;
+  background-color: rgb(245, 145, 130);
+  border-radius: 10px;
+}
 .table-date {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 80px;
-  width: 100%;
-  background-color: rgb(245, 145, 130);
-  border-radius: 10px;
+
   gap: 8px;
+  margin: 0 10px;
 }
 
 .date-button {
@@ -201,7 +205,7 @@ a {
     flex-direction: column;
     max-width: 100%;
   }
-  .table-container{
+  .table-container {
     width: 100%;
     overflow-y: scroll;
   }
@@ -210,6 +214,10 @@ a {
   }
   .table {
     max-width: 100%;
+  }
+  .date-wrap {
+    width: 100%;
+    border-radius: 0;
   }
   .table-date {
     display: flex;
@@ -255,15 +263,15 @@ a {
     width: 50%;
   }
   .main-table {
-
     border-collapse: collapse;
     width: 1024px;
   }
 }
 @media screen and (max-width: 483px) {
-  .table-container{
+  .table-container {
     width: 100%;
     overflow-y: scroll;
+    margin-top: 20px;
   }
   .main {
     flex-direction: column;
@@ -275,9 +283,7 @@ a {
     margin-top: 15px;
   }
 
-  .table-date {
-    width: 100%;
-    padding: 0 10px;
+  .date-wrap {
     border-radius: 0px;
   }
   .date-button {
@@ -288,12 +294,13 @@ a {
   }
   .filter {
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 30px;
   }
   .filter-button-group {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin: 10px 10px;
   }
   .search {
     width: 100%;
@@ -308,7 +315,7 @@ a {
   .table h1 {
     display: none;
   }
-  .main-nav-container{
+  .main-nav-container {
     overflow-y: scroll;
   }
   .main-nav {
@@ -319,23 +326,22 @@ a {
     border-top: 2px rgb(245, 145, 130) solid;
     margin-top: 0px;
     border-collapse: collapse;
-    
   }
 
   .nav-button {
-    width: 100px;
+    width: 140px;
     height: 30px;
+    font-size: 17px;
     background-color: white;
     transition: all 1s;
     border: none;
   }
   .nav-button.active {
     height: 30px;
-    width: 100px;
-    font-size: 15px;
+    width: 140px;
+    font-size: 18px;
     color: rgb(245, 145, 130);
-    border-bottom: 10px rgb(245, 145, 130) solid;
-    border-radius: 50%;
+    border-bottom: 5px rgb(245, 145, 130) solid;
     display: flex;
     font-weight: bold;
   }
