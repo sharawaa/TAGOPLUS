@@ -48,7 +48,7 @@
 }
 .comments {
   position: relative;
-  height: 260px;
+  height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

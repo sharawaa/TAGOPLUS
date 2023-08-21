@@ -43,20 +43,22 @@
     <div class="main-container">
       <div class="main">
         <h1 class="table-title">나의 프로젝트</h1>
-        <nav class="main-nav">
-          <button class="nav-button" onclick="toggleActive(this)">
-            마이 페이지
-          </button>
-          <button class="nav-button" onclick="toggleActive(this)">
-            나의 프로젝트
-          </button>
-          <button class="nav-button" onclick="toggleActive(this)">
-            거래서류
-          </button>
-          <button class="nav-button" onclick="toggleActive(this)">
-            회원정보수정
-          </button>
-        </nav>
+        <div class="main-nav-container">
+          <nav class="main-nav">
+            <button class="nav-button" onclick="toggleActive(this)">
+              마이 페이지
+            </button>
+            <button class="nav-button" onclick="toggleActive(this)">
+              나의 프로젝트
+            </button>
+            <button class="nav-button" onclick="toggleActive(this)">
+              거래서류
+            </button>
+            <button class="nav-button" onclick="toggleActive(this)">
+              회원정보수정
+            </button>
+          </nav>
+        </div>
 
         <div class="table">
           <h1>나의 프로젝트</h1>
@@ -100,19 +102,20 @@
               </button>
             </div>
           </section>
-          <table class="main-table">
-            <thead>
-              <tr>
-                <th>프로젝트 제목</th>
-                <th>진척률</th>
-                <th>계약금</th>
-                <th>증도금</th>
-                <th>잔금</th>
-                <th>등록일</th>
-                <th>상태</th>
-              </tr>
-            </thead>
-            <tbody>
+          <div class="table-container">
+            <table class="main-table">
+              <thead>
+                <tr>
+                  <th>프로젝트 제목</th>
+                  <th>진척률</th>
+                  <th>계약금</th>
+                  <th>증도금</th>
+                  <th>잔금</th>
+                  <th>등록일</th>
+                  <th>상태</th>
+                </tr>
+              </thead>
+              <tbody>
               <tr>
                 <td>프로젝트 제목이 들어갑니다</td>
                 <td>-</td>
@@ -241,6 +244,7 @@
             </tbody>
           </table>
         </div>
+        </div>
       </div>
       <!-- pagination start -->
       <div class="pagination">
@@ -253,7 +257,7 @@
         <p>100</p>
         <p>></p>
       </div>
-
+      
       <!-- <div class="paging_wrap">
         <div class="paging_conts">
           <a href="javascript:void(0);" class="paging_start"
