@@ -1,0 +1,93 @@
+* {
+    font-family: "pretendard", sans-serif;
+  }
+
+
+.presentation_wrap{
+    width: 283px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 134px;
+    align-items: center;
+    text-align: center;
+    font-size:14px ;
+    font-weight: 400;
+    font-family: "pretendard", sans-serif;
+    line-height: 16.49px;
+    margin-top: 30px;
+    line-height: 16.71px;
+}
+
+.register_table{
+    margin-top: 30px;
+    height: 134px;
+    width: 500px
+    
+}
+table{
+    width: 500px;
+    height: 72px;
+    background-color: #EFF1F0;
+    border-top: #F25555 2px solid;
+}
+.td_end{
+    width: 322px;
+    background-color:#FFFFFF;
+}
+td{
+    text-align: center
+}
+
+.regiter_information{
+    width: 436px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 137px;
+    text-align: center;
+    font-weight: 400px;
+    font-size: 14px;
+ 
+    line-height: 16.71px;
+}
+
+.register_button{
+    height: 34px;
+    width: 180px;
+    background-color:  #F25555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.monoPub_wrap{
+    margin-top: 30px;
+width: 500px;
+text-align: center;
+}
+.monoPub_title{
+    display: flex;
+    justify-content: center;
+}
+.monoPub_red{
+    color: red;
+}
+.line{
+    width: 500px;
+    border: orangered 2px solid;
+    margin-top: 30px;
+}
+.ask_wrap{
+    margin-top: 30px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.71px;
+    letter-spacing: 3%;
+}
