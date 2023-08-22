@@ -6,6 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TAGOPLUS</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "pkx5omj",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
 
     <!--style-->
     <link rel="stylesheet" href="../assets/style/media/desctop.css">
@@ -24,14 +55,20 @@
           </button>
           <div class="dropdown-content-container">
            <div class="dropdown-content">
+          <div class="menu-group">
             <a class="aTag" href="./sub/main.html">서비스 소개</a>
             <a class="aTag" href="./sub/main.html">퍼블리싱 의뢰</a>
             <a class="aTag" href="./sub/main.html">포트폴리오</a>
             <a class="aTag" href="./sub/main.html">고객센터</a>
-            <a href="./sub/main.html" class="aTag"
-              ><img src="../assets/icons/123.png" alt="humanIcon" />
+            <div class="menu-icon">
+              <img src="../assets/icons/123.png" alt="humanIcon" />
+              <a href="./sub/main.html" class="aTag"
+              >
               마이페이지</a
-            >
+              >
+
+            </div>
+          </div>
             <div class="buttonGroup">
               <button class="headerButton1">로그인</button>
               <button class="headerButton2">회원가입</button>
@@ -51,11 +88,11 @@
     <div class="banner-container">
       <div class="banner">
         <div class="banner-title">
-          <h1>복잡한 퍼블리싱 이젠</h1>
-          <h1>전문가에게 맡기세요!</h1>
+          <p class="banner-title-1">복잡한 퍼블리싱 이젠</p>
+          <p class="banner-title-2">전문가에게 맡기세요!</p>
         </div>
         <div class="images">
-          <img class="image" src="../assets/image/buble.png" alt="buble" />
+          <img class="buble-image" src="../assets/image/buble.png" alt="buble" />
           <img src="../assets/image/table.png" alt="table" />
         </div>
         <div class="rewards">
@@ -66,24 +103,24 @@
                 src="../assets/icons/medal.png"
                 alt="goldMedal"
               />
-              <p>여성의류 쇼핑몰</p>
+              <p class="reward-title">여성의류 쇼핑몰</p>
             </div>
             <div class="medal2">
               <section class="won">
                 <img
-                  class="medalIcon"
+                  class="sub-icon"
                   src="../assets/icons/won.png"
                   alt="silverMedal"
                 />
-                <p class="number">50.000.000</p>
+                <p class="number">5,000,000</p>
               </section>
               <section class="user">
                 <img
-                  class="medalIcon"
+                  class="sub-icon"
                   src="../assets/icons/user.png"
                   alt="medal"
                 />
-                <p>김**</p>
+                <p class="user-p">김**</p>
               </section>
             </div>
           </section>
@@ -94,20 +131,20 @@
                 src="../assets/icons/medal2.png"
                 alt="medal"
               />
-              <p>여성의류 쇼핑몰</p>
+              <p>강남성모병원</p>
             </div>
             <div class="medal2">
               <section class="won">
                 <img
-                  class="medalIcon"
+                  class="sub-icon"
                   src="../assets/icons/won.png"
                   alt="won mm"
                 />
-                <p class="number">3.250.000</p>
+                <p class="number">3,250,000</p>
               </section>
               <section class="user">
                 <img
-                  class="medalIcon"
+                  class="sub-icon"
                   src="../assets/icons/user.png"
                   alt="user"
                 />
@@ -122,12 +159,12 @@
                 src="../assets/icons/medal3.png"
                 alt="bronzeMedal"
               />
-              <p>여성의류 쇼핑몰</p>
+              <p>밀알복지재단 30주년 ..</p>
             </div>
             <div class="medal2">
               <section class="won">
                 <img
-                  class="medalIcon"
+                  class="sub-icon"
                   src="../assets/icons/won.png"
                   alt="medal"
                 />
@@ -135,7 +172,7 @@
               </section>
               <section class="user">
                 <img
-                  class="medalIcon"
+                  class="sub-icon"
                   src="../assets/icons/user.png"
                   alt="medal"
                 />
@@ -146,19 +183,19 @@
           <section class="reward">
             <div class="medal1">
               <img class="medalIcon" src="../assets/icons/4.png" alt="4" />
-              <p>여성의류 쇼핑몰</p>
+              <p>탱그램 라이팅 이더</p>
             </div>
             <div class="medal2">
               <section class="won">
                 <img
-                  class="medalIcon"
+                  class="sub-icon"
                   src="../assets/icons/won.png"
                   alt="won"
                 />
-                <p class="number">2,715,000</p>
+                <p class="number">4,853,000</p>
               </section>
               <section class="user">
-                <img class="medalIcon" src="../assets/icons/user.png" alt="5" />
+                <img class="sub-icon" src="../assets/icons/user.png" alt="5" />
                 <p>김**</p>
               </section>
             </div>
@@ -166,12 +203,12 @@
           <section class="reward">
             <div class="medal1">
               <img class="medalIcon" src="../assets/icons/5.png" alt="medal" />
-              <p>여성의류 쇼핑몰</p>
+              <p>한화 사이언스 챌린지</p>
             </div>
             <div class="medal2">
               <section class="won">
                 <img
-                  class="medalIcon"
+                  class="sub-icon"
                   src="../assets/icons/won.png"
                   alt="medal"
                 />
@@ -179,7 +216,7 @@
               </section>
               <section class="user">
                 <img
-                  class="medalIcon"
+                  class="sub-icon"
                   src="../assets/icons/user.png"
                   alt="medal"
                 />
@@ -197,12 +234,15 @@
       <div class="chart">
         <section class="chart-start">
           <p class="chart-title">진행중인 프로젝트</p>
-          <h1 class="ing">ing</h1>
+          <img class="ing" src="../assets/image/ing.png" alt="">
         </section>
         <div class="carts">
           <div class="cart-container">
-            <div id="doughnutChart"></div>
-            <div class="percent">75%</div>
+            <img
+              class="chart-image"
+              src="../assets/image/chartTh.png"
+              alt="chart"
+            />
             <p class="cart-container-p">여성의류 쇼핑몰 보헤미안</p>
             <button class="cart-container-button">계약완료</button>
           </div>
@@ -216,17 +256,14 @@
             <button class="cart-container-button">계약완료</button>
           </div>
           <div class="cart-container">
-            <div class="test1">
-              <div class="test2">
-                <div class="test3"></div>
-              </div>
-            </div>
-            <div class="percent">25%</div>
+            <img
+              class="chart-image"
+              src="../assets/image/chartOne.png"
+              alt="chart"
+            />
             <p class="cart-container-p">여성의류 쇼핑몰 보헤미안</p>
             <button class="cart-container-button">계약완료</button>
           </div>
-        </div>
-        <script src="../assets/js/chart.js"></script>
       </div>
     </div>
     <!-- chart end -->
@@ -236,15 +273,18 @@
       <div class="project">
         <section class="project-box-1">
           <div class="project-small-box">
-            <p class="project-title">총 계약된 프로젝트</p>
-            <div class="project-case">
-              <h1 class="project-case-number">2,580</h1>
-              <p class="project-case-p">건</p>
+            <div class="box-small">
+
+              <p class="project-title">총 계약된 프로젝트</p>
+              <div class="project-case">
+                <h1 class="project-case-number">2,580</h1>
+                <p class="project-case-p">건</p>
+              </div>
             </div>
             <div class="project-case-image">
               <img
-                src="../assets/image/zahia.png"
-                style="height: 130px"
+             src="../assets/image/zahia.png"
+                style="width:156px; height: 153px"
                 alt="messege"
               />
             </div>
@@ -252,25 +292,30 @@
         </section>
         <section class="project-box-2">
           <div class="project-small-box">
-            <p class="project-title">총 계약된 프로젝트</p>
-            <div class="project-case">
-              <h1 class="project-case-number">2,580</h1>
-              <p class="project-case-p">건</p>
+            <div class="box-small">
+
+              <p class="project-title">총 계약된 프로젝트</p>
+              <div class="project-case">
+                <h1 class="project-case-number">1,358</h1>
+                <p class="project-case-p">건</p>
+              </div>
             </div>
             <div class="project-case-image">
-              <img src="../assets/image/stat.png" alt="Project Statistics" />
+              <img style="width: 121px; height: 136px;" src="../assets/image/stat.png" alt="Project Statistics" />
             </div>
           </div>
         </section>
         <section class="project-box-3">
           <div class="project-small-box">
+           <div class="box-small">
             <p class="project-title">총 계약된 프로젝트</p>
             <div class="project-case">
-              <h1 class="project-case-number">2,580</h1>
+              <h1 class="project-case-number">1,752</h1>
               <p class="project-case-p">건</p>
             </div>
+           </div>
             <div class="project-case-image">
-              <img src="../assets/image/com.png" alt="computer" />
+              <img style="height: 109px; width: 154px;" src="../assets/image/com.png" alt="computer" />
             </div>
           </div>
         </section>
@@ -282,12 +327,12 @@
     <div class="introduction-container">
       <div class="introduction">
         <section class="introduction-start">
-          <h1>서비스 소개</h1>
-          <p>
+          <p class="intro-start-title">서비스 소개</p>
+          <p class="intro-start-p">
             누적 거래 402만 건! 700여 개의 카테고리와 6만여 개 서비스에서 필요한
             모든 전문가를 만나보세요.
           </p>
-          <button class="introduction-button">자세히 보기</button>
+          <button class="introduction-button"><p>자세히 보기</p><p>></p></button>
         </section>
         <section class="introduction-image">
           <img src="../assets/image/zasvarlasan.png" alt="newImage" />
@@ -307,7 +352,7 @@
           </p>
         </section>
         <iframe
-          style="border-radius: 10px"
+          style="border-radius: 10px; height: 399px;"
           class="promo-video"
           src="https://www.youtube.com/embed/JjdNGtORUjo"
           title="YouTube video player"
