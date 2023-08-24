@@ -1,626 +1,650 @@
- /* <!-- header start--> */
- @media screen and (max-width: 2001.98px) {
+/* <!-- header start--> */
+@media screen and (max-width: 2001.98px) {
   * {
     font-family: "pretendard", sans-serif;
   }
-      body {
-        margin: 0px;
-      }
-      .header-container {
-        width: 100%;
-        height: 82px;
-        display: flex;
-        align-items: center;
-        text-transform: uppercase;
-        font-family: "Pretendart";
-      }
-      
-      .tagoplus {
-        text-decoration: none;
-        font-size: 26px;
-        font-weight: 800;
-        color: #333333;
+  body {
+    margin: 0px;
+  }
+  .header-container {
+    width: 100%;
+    height: 82px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: "Pretendart";
+  }
 
-      }
-      
-      .header {
-        width: 1170px;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
-      .dropbtn {
-        display: none;
-      }
-.menu-icon{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 6px;
+  .tagoplus {
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 800;
+    color: #333333;
+  }
+
+  .header {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .dropbtn {
+    display: none;
+  }
+  .menu-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+  }
+  .dropdown-content {
+    display: flex;
+    justify-content: space-between;
+    width: 733px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #333333;
+    font-size: 17px;
+  }
+  .menu-group {
+    width: 515px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  .aTag {
+    text-decoration: none;
+
+    font-size: 17px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 500;
+    font-family: "Pretendard";
+  }
+
+  .buttonGroup {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 5px;
+  }
+  .headerButton1,
+  .headerButton2 {
+    border: none;
+    height: 37px;
+    width: 77px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .headerButton1 {
+    font-weight: 300;
+    font-family: "Pretendard";
+    font-size: 14px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #333333;
+  }
+
+  .headerButton2 {
+    background-color: #171717;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Pretendard";
+    text-align: center;
+    font-weight: 300;
+    font-family: "Pretendard";
+    text-align: center;
+  }
 }
-      .dropdown-content {
-        display: flex;
-        justify-content: space-between;
-        width: 733px;
-        align-items: center;
-        text-transform: uppercase;
-        color: #333333;
-        font-size: 17px;
-      
-      }
-      .menu-group{
-        width: 515px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-      }
-      .aTag {
-        text-decoration: none;
-     
-        font-size: 17px;
-        letter-spacing: 0px;
-        text-transform: uppercase;
-        color: #333333;
-        font-weight: 500;
-        font-family: "Pretendard";
-      
-      }
-      
-      .buttonGroup {
-        display: flex;
-        align-items: center;
-        gap:8px;
-        margin-top: 5px;
-     
-      }
-      .headerButton1,
-      .headerButton2 {
-        border: none;
-        height: 37px;
-        width: 77px;
-        border-radius: 8px;
-        cursor: pointer;
-      }
-      
-      .headerButton1 {
-        font-weight: 300;
-        font-family: "Pretendard";
-        font-size: 14px;
-        letter-spacing: 0px;
-        text-transform: uppercase;
-        color: #333333;
-      }
-      
-      .headerButton2 {
-        background-color: #171717;
-        color: #ffffff;
-        font-weight: 300;
-font-family: "Pretendard";
-text-align: center;
-        font-weight: 300;
-font-family: "Pretendard";
-text-align: center;
-      }
+/* -- header end */
+/* -- banner start -- */
+@media screen and (max-width: 2001.98px) {
+  .banner-container {
+    width: 100%;
+    background-color: rgb(228, 107, 87);
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0px;
+  }
+
+  .banner {
+    display: flex;
+    width: 1170px;
+    align-items: center;
+    height: 420px;
+    justify-content: space-between;
+  }
+
+  .banner-title-1 {
+    font-size: 38px;
+
+    letter-spacing: -1px;
+    line-height: 58px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Pretendard";
+  }
+  .banner-title-2 {
+    margin-top: -45px;
+    font-size: 45px;
+    letter-spacing: -1px;
+    line-height: 58px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Pretendard";
+    font-weight: bolder;
+  }
+  .banner-title {
+    color: white;
+    position: absolute;
+  }
+  .images {
+    position: relative;
+    margin-top: 79px;
+    margin-left: 246px;
+  }
+  .buble-image {
+    position: absolute;
+    margin-left: 23px;
+    margin-top: -15px;
+  }
+  .rewards {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .reward {
+    display: flex;
+    height: 53px;
+    justify-content: space-around;
+    width: 409px;
+    background-color: white;
+    border-radius: 15px;
+    z-index: 1;
+  }
+  .reward-title {
+    font-size: 16px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #333333;
+    font-family: "Pretendard";
+  }
+  .medal1 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 50%;
+
+    margin-left: 10px;
+  }
+  .medal2 {
+    display: flex;
+    width: 155px;
+
+    justify-content: space-between;
+    margin-right: 26px;
+  }
+  .won {
+    display: flex;
+    width: 50%;
+
+    gap: 6px;
+    align-items: center;
+  }
+  .user {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .medalIcon {
+    height: 25px;
+    width: 25px;
+  }
+  .number {
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 300;
+    font-family: "Pretendard";
+    font-size: 14px;
+  }
+  .user-p {
+    font-size: 14px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #333333;
+    font-family: "Pretendard";
+    flex-wrap: nowrap;
+  }
+  .sub-icon {
+    width: 20px;
+    height: 20px;
+  }
 }
- /* -- header end */
- /* -- banner start -- */
-@media screen and (max-width:2001.98px) {
-    .banner-container {
-        width: 100%;
-        background-color: rgb(228, 107, 87);
-        height: 420px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        border-radius: 0px;
-      }
-      
-      .banner {
-        display: flex;
-        width: 1170px;
-        align-items: center;
-        height: 420px;
-        justify-content: space-between;
-      }
+/* -- banner end -- */
 
-      .banner-title-1{
-        font-size: 38px;
+/* -- chart start-- */
+@media screen and (max-width: 2001.98px) {
+  .chart-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 269px;
 
-letter-spacing: -1px;
-line-height: 58px;
-text-transform: uppercase;
-color: #ffffff;
-font-family: "Pretendard";
-      }
-      .banner-title-2{
-        margin-top: -45px;
-        font-size: 45px;
-letter-spacing: -1px;
-line-height: 58px;
-text-transform: uppercase;
-color: #ffffff;
-font-family: "Pretendard";
-font-weight: bolder;
-      }
-      .banner-title {
-        color: white;
-        position: absolute;
-      }
-      .images {
-        position: relative;
-        margin-top: 79px;
-        margin-left: 246px;
-      }
-      .buble-image {
-        position: absolute;
-        margin-left:  23px;
-        margin-top: -15px;
-      }
-      .rewards{
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-      }
-      .reward {
-        display: flex;
-        height: 53px;
-        justify-content: space-around;
-        width: 409px;
-        background-color: white;
-        border-radius: 15px;
-        z-index: 1;
-      }
-      .reward-title{
-        font-size: 16px;
-letter-spacing: 0px;
-text-transform: uppercase;
-color: #333333;
-font-family: "Pretendard";
-      }
-      .medal1 {
-        display: flex;
-        align-items: center;
-        gap: 5px;
-        width: 50%;
-       
-        margin-left: 10px;
-      }
-      .medal2 {
-        display: flex;
-        width: 155px;
+    margin-top: 76px;
+  }
+  .chart {
+    display: flex;
+    width: 1170px;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-        justify-content: space-between;
-        margin-right: 26px;
-      }
-      .won {
-        display: flex;
-        width: 50%;
-      
-gap: 6px;
-        align-items: center;
-      }
-      .user {
-        display: flex;
-        align-items: center;
-        gap: 6px;
-      }
-      .medalIcon {
-        height: 25px;
-        width: 25px;
-      }
-      .number {
-        text-transform: uppercase;
-        color: #333333;
-        font-weight: 300;
-        font-family: "Pretendard";
-        font-size: 14px;
-      }
-      .user-p{
-        font-size: 14px;
-letter-spacing: 0px;
-text-transform: uppercase;
-color: #333333;
-font-family: "Pretendard";
-flex-wrap: nowrap;
-      }
-      .sub-icon{
-        width:20px ;
-        height: 20px;
-      }
-    
+  .chart-start {
+    position: relative;
+    width: 320px;
+  }
+  .ing {
+    margin-left: 110px;
+  }
+  .chart-title {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 800;
+    font-family: "Pretendard";
+    margin-top: 55px;
+  }
+  .chart-image {
+    width: 187px;
+  }
+  .cart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 269px;
+  }
+  .cart-container-button {
+    width: 79px;
+    height: 29px;
+    border: none;
+    background-color: rgb(232, 231, 231);
+  }
+  .cart-container-p {
+    font-size: 18px;
+  }
+  .test1 {
+    width: 187px;
+    height: 187px;
+    border-radius: 50%;
+    background-color: rgb(100, 203, 143);
+    position: relative;
+  }
+  .test2 {
+    position: absolute;
+    display: flex;
+    flex: none;
+    width: 93px;
+    height: 93px;
+
+    background-color: rgb(193, 206, 199);
+    border-top-left-radius: 100%;
+  }
+  .test3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    margin: 18px;
+  }
+  .carts {
+    width: 707px;
+    display: flex;
+    justify-content: space-between;
+  }
 }
- /* -- banner end -- */
+/* -- chart end -- */
 
- /* -- chart start-- */
- @media screen and (max-width: 2001.98px) {
-    .chart-container {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 269px;
-      
-        margin-top: 76px;
-      }
-      .chart {
-        display: flex;
-        width: 1170px;
-        justify-content: space-between;
-        align-items: center;
-      }
-      
-      .chart-start {
-        position: relative;
-        width: 320px;
-      }     
-      .ing {
-        margin-left: 110px;
-      }
-      .chart-title {
-        display: flex;
-        align-items: center;
-        position: absolute;
-        text-align: center;
-        font-size: 32px;
-letter-spacing: -1px;
-text-transform: uppercase;
-color: #333333;
-font-weight: 800;
-font-family: "Pretendard";
-margin-top: 55px;
-      }
-      .chart-image {
-        width: 187px;
-      }
-      .cart-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 269px;
-        
-      }
-      .cart-container-button {
-        width: 79px;
-        height: 29px;
-        border: none;
-        background-color: rgb(232, 231, 231);
-      }
-      .cart-container-p {
-        font-size: 18px;
-      }
-      .test1 {
-        width: 187px;
-        height: 187px;
-        border-radius: 50%;
-        background-color: rgb(100, 203, 143);
-        position: relative;
-      }
-      .test2 {
-        position: absolute;
-        display: flex;
-        flex: none;
-        width: 93px;
-        height: 93px;
-      
-        background-color: rgb(193, 206, 199);
-        border-top-left-radius: 100%;
-      }
-      .test3 {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-        position: absolute;
-        background-color: white;
-        margin: 18px;
-      }
-      .carts {
-        width: 707px;
-        display: flex;
-        justify-content: space-between;
+/* -- project start -- */
+@media screen and (max-width: 2001.98px) {
+  .project-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+  }
+  .project {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+  }
 
-      }
+  .project-box-1 {
+    width: 376px;
+    height: 310px;
+    border-radius: 10px;
+    background-color: rgb(231, 222, 249);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .project-box-2 {
+    width: 376px;
+    height: 310px;
+    border-radius: 10px;
+    background-color: rgb(222, 236, 210);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .project-box-3 {
+    width: 376px;
+    height: 310px;
+    border-radius: 10px;
+    background-color: rgb(252, 241, 195);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project-title {
+    margin-top: 30px;
+    font-size: 20px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #222222;
+    font-weight: 500;
+    font-family: "Pretendard";
+  }
+  .project-case {
+    display: flex;
+    height: 60px;
+    margin-top: -40px;
+  }
+  .project-case-number {
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    color: #222222;
+    font-weight: bold;
+    font-family: "Pretendard";
+    font-size: 36px;
+  }
+  .project-case-p {
+    margin-top: 48px;
+  }
+
+  .project-small-box {
+    width: 300px;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .project-case-image {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+  }
+  .box-small {
+    margin-top: 20px;
+  }
 }
- /* -- chart end -- */
+/* !-- project end -- */
 
+/* -- introduction start -- */
+@media screen and (max-width: 2001.98px) {
+  .introduction-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 302px;
+    margin-top: 61px;
+  }
+  .introduction {
+    width: 1171px;
+    background-color: rgb(211, 227, 252);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
+    align-items: center;
 
- /* -- project start -- */
- @media screen and (max-width: 2001.98px) {
-    .project-container {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 70px;
-      }
-      .project {
-        width: 1170px;
-        display: flex;
-        justify-content: space-between;
-      }
-      
-      .project-box-1 {
-        width: 376px;
-        height: 310px;
-        border-radius: 10px;
-        background-color: rgb(231, 222, 249);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      .project-box-2 {
-        width: 376px;
-        height: 310px;
-        border-radius: 10px;
-        background-color: rgb(222, 236, 210);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      .project-box-3 {
-        width: 376px;
-        height: 310px;
-        border-radius: 10px;
-        background-color: rgb(252, 241, 195);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      
-      .project-title {
-        margin-top: 30px;
-        font-size: 20px;
-letter-spacing: 0px;
-text-transform: uppercase;
-color: #222222;
-font-weight: 500;
-font-family: "Pretendard";
-      }
-      .project-case {
-    
-        display: flex;
-        height: 60px;
-        margin-top: -40px;
-
-      }
-      .project-case-number {
-        letter-spacing: -1px;
-        text-transform: uppercase;
-        color: #222222;
-        font-weight: bold;
-        font-family: "Pretendard";
-        font-size: 36px;
-    
-      }
-      .project-case-p {
-        margin-top: 48px;
-      }
-      
-      .project-small-box {
-        width: 300px;
-        height: 300px;
-       
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-      }
-      .project-case-image {
-        display: flex;
-        justify-content: end;
-        margin-bottom: 20px;
-      }
-      .box-small{
-        margin-top: 20px;
-      }
-     
+    height: 302px;
+  }
+  .introduction-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    height: 181px;
+    margin-left: 42px;
+    width: 396px;
+  }
+  .introduction-button {
+    display: flex;
+    justify-content: space-around;
+    height: 47px;
+    width: 153px;
+    border: none;
+    border-radius: 7px;
+    background-color: white;
+  }
+  .introduction-image {
+    margin-top: 18px;
+    margin-right: -20px;
+  }
+  .intro-start-title {
+    line-height: normal;
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: -1;
+    margin-top: -6px;
+  }
+  .intro-start-p {
+    margin-top: -20px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+  }
 }
- /* !-- project end -- */
+/*-- introduction end--  */
 
- /* -- introduction start -- */
- @media screen and (max-width: 2001.98px) {
-    .introduction-container {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 302px;
-        margin-top:61px ;
-      }
-      .introduction {
-        width: 1171px;
-        background-color: rgb(211, 227, 252);
-        display: flex;
-        justify-content: space-between;
-        border-radius: 12px;
-        align-items: center;
-      
-        height: 302px;
-      }
-      .introduction-start {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        width: 40%;
-        height: 181px;
-        margin-left:42px ;
-        width: 396px;
-      
-      }
-      .introduction-button {
-        display: flex;
-        justify-content: space-around;
-        height: 47px;
-        width: 153px;
-        border: none;
-        border-radius: 7px;
-        background-color: white;
-      }
-      .introduction-image{
-        margin-top: 18px;
-        margin-right:-20px;
-      }
-      .intro-start-title{
-        line-height:normal ;
-        font-size: 32px;
-        font-weight: 800;
-        letter-spacing: -1;
-        margin-top: -6px;
-      }
-      .intro-start-p{
-        margin-top: -20px;
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 500;
-      }
-}
- /*-- introduction end--  */
+/* -- promotion start -- */
+@media screen and (max-width: 2001.98px) {
+  .promo-container {
+    width: 100%;
+    background-color: rgb(239, 239, 239);
+    height: 528px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+  }
+  .promo {
+    display: flex;
+    width: 1170px;
+    align-items: center;
+    height: 528px;
+    justify-content: space-between;
+  }
 
- /* -- promotion start -- */
- @media screen and (max-width: 2001.98px) {
-    .promo-container {
-        width: 100%;
-        background-color: rgb(239, 239, 239);
-        height: 528px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: 80px;
-      }
-      .promo {
-        display: flex;
-        width: 1170px;
-        align-items: center;
-        height: 528px;
-        justify-content: space-between;
-      }
-      
-      .promo-text {
-        width: 100%;
-        max-width: 269px;
-        text-align: start;
-        margin-bottom: 20px;
-      }
-      
-      .promo-text-h1 {
-        font-size: 32px;
-        font-weight: 800;
-      }
-      
-      .promo-video {
-        width: 100%;
-        max-width: 704px;
-        height: 399px;
-      }
-      .promo-text-p{
-        line-height: 24px;
-        font-weight: 500;
-      }
-}
- /* -- promotion end -- */
+  .promo-text {
+    width: 100%;
+    max-width: 269px;
+    text-align: start;
+    margin-bottom: 20px;
+  }
 
- /* -- comment start -- */
- @media screen and (max-width: 2001.98px) {
-    .comment-container {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-      .comment {
-        width: 1170px;
-        display: flex;
-        justify-content: space-between;
-        border-radius: 10px;
-        margin-top: 20px;
-        gap: 10px;
-      }
-      .reviews {
-        display: flex;
-        gap: 10px;
-      }
-      .reviewOutside {
-        border: 1px orangered solid;
-        border-radius: 10px;
-        height: 214px;
-        padding: 10px;
-        width: 240px;
-      }
-      .review {
-        margin-left: 20px;
-        border-radius: 10px;
-        height: 190px;
-        width: 180px;
-      }
-      .review-pro {
-        display: flex;
-        gap: 20px;
-      }
-      .review-texts {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-      }
-      .review-title {
-        display: flex;
-        gap: 20px;
-        align-items: center;
-      }
-      .review-date {
-        color: gray;
-      }
-      .comments {
-        position: relative;
-        height: 200px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-      }
-      .comm1 {
-        border-top: 1px gray solid;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-      }
-      
-      .comm2 {
-        border-top: 1px gray solid;
-        border-bottom: 1px gray solid;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-      }
-      .comm3 {
-        border-bottom: 1px gray solid;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-      }
-}
- /* -- comment end -- */
+  .promo-text-h1 {
+    font-size: 32px;
+    font-weight: 800;
+  }
 
- /* -- footer start-- */
- @media screen and (max-width: 2001.98px) {
-    .footer {
-        border-top: 1px gray solid;
-        margin-top: 120px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        height: 176px;
-      }
-      .footer-p {
-        margin-top: 43px;
-      }
-      .footer-text {
-        display: flex;
-      }
-      .footer-copy-text {
-        color: rgb(185, 177, 177);
-        margin-bottom: 50px;
-        font-size: 14px;
-      }
+  .promo-video {
+    width: 100%;
+    max-width: 704px;
+    height: 399px;
+  }
+  .promo-text-p {
+    line-height: 24px;
+    font-weight: 500;
+  }
 }
- /* -- footer end-- */
+/* -- promotion end -- */
+
+/* -- comment start -- */
+@media screen and (max-width: 2001.98px) {
+  .comment-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+  }
+  .comment {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+
+    gap: 10px;
+  }
+  .reviews {
+    display: flex;
+    gap: 9px;
+  }
+
+  .reviewOutside {
+    border: 1px orangered solid;
+    border-radius: 10px;
+    height: 214px;
+    width: 241px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .review {
+    height: 161px;
+    width: 173px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .review-start {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .review-pro {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+  }
+  .review-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .review-title {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .review-title_start {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .review-title_end {
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+  }
+  .review-date {
+    color: gray;
+  }
+  /* test */
+
+  /* test */
+  .comments {
+    position: relative;
+    height: 214px;
+    width: 367px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .comm1 {
+    border-top: 1px gray solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70px;
+    gap: 9px;
+  }
+
+  .comm2 {
+    border-top: 1px gray solid;
+    border-bottom: 1px gray solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 9px;
+    height: 70px;
+  }
+  .comm3 {
+    border-bottom: 1px gray solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70px;
+    gap: 9px;
+  }
+}
+/* -- comment end -- */
+
+/* -- footer start-- */
+@media screen and (max-width: 2001.98px) {
+  .footer {
+    width: 100%;
+    height: 178px;
+    border-top: 1px gray solid;
+    margin-top: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-p {
+    margin-top: 43px;
+    font-size: 15px;
+  }
+  .footer-text {
+    display: flex;
+  }
+  .footer-copy-text {
+    margin-top: 32px;
+    color: #666666;
+    margin-bottom: 51px;
+    font-size: 14px;
+  }
+}
+/* -- footer end-- */
